@@ -59,3 +59,40 @@ public class DocumentResource {
 			return Response.ok().build();
 		}
 	}
+	
+	/**
+	 * @param client
+	 * @param credentials
+	 * @param filePathUpload
+	 * @param vaultName
+	 * @return true if successful,
+	 * false if unsuccessful
+	 */
+	
+	private boolean uploadFileOnGlacier(AmazonGlacierClient client, AWSCredentials credentials, String filePathUpload, String vaultName){
+	
+		try {
+		
+			ArchiveTransferManager atm = new ArchiveTransferManager(client,credentials);
+			
+			System.out.println("in try");
+			System.out.println("File to be uploaded is "+filePathUpload);
+
+			UploadResult result1 = atm.upload(vaultName, filePathUpload, new File(filePathUpload));
+			
+			System.out.println(result1);
+			System.out.println("Archive ID: " + result1.getArchiveId());	
+			
+			return true;
+		} 
+		catch (Exception e) 
+		{
+			
+			System.out.println("in catch");
+			System.err.println(e);
+		
+			return false;
+		
+		}
+	}
+}
