@@ -1,0 +1,76 @@
+{
+    "VaultARN": "arn:aws:glacier:us-west-1:722589852609:vaults/ExampleVaultAtGlacier",
+    "InventoryDate": "2013-10-05T15:07:17Z",
+    "ArchiveList": [
+        {
+            "ArchiveId": "_tYQQpqvWuFzb9gmKvLVTpVBcpnunbrZV3mj7Z3U7KLh7AXrU_HlcYG2YeYtZDzJRk0YGVJe8b2Lp-q-y5NNIsDskdQFNYCjX_6bSi9wYNx6PzRA_SkFEGfegCIIbLe-GwHtN88yNQ",
+            "ArchiveDescription": "Example",
+            "CreationDate": "2013-10-03T21:12:14Z",
+            "Size": 191,
+            "SHA256TreeHash": "7a6888d64510ec92b09bc8f72f6f8e6967cbc98ebb04a6b03d2af345f9782fb4"
+        },
+        {
+            "ArchiveId": "6qhRthug5ktGGO70r3c6OPFAHX8Bbimizeo2DNMIFcPFL64dIK9OjAEBlLtRGHYxYfJYD4WX8mRHCNcg5uN-93xwJi8Y8EuN-l2VAQuvO79_bO-X4TGJdX-vDyrJGltdufZv37iSgw",
+            "ArchiveDescription": "Example1",
+            "CreationDate": "2013-10-03T21:14:22Z",
+            "Size": 191,
+            "SHA256TreeHash": "7a6888d64510ec92b09bc8f72f6f8e6967cbc98ebb04a6b03d2af345f9782fb4"
+        },
+        {
+            "ArchiveId": "EQsn2Hhz1pEF0H7n32nulp-HGBO4uOzHAmIlHnpVUXKnSbMVrnI4ARdbLcyF6D_Rhwfxn-bF4MJWSO07khcu8ri9bikMTj-cTZaBqdCKKOTIXegko56qM5bqsLVx1NpVqmdwlN63Iw",
+            "ArchiveDescription": "Example1",
+            "CreationDate": "2013-10-04T03:22:39Z",
+            "Size": 191,
+            "SHA256TreeHash": "7a6888d64510ec92b09bc8f72f6f8e6967cbc98ebb04a6b03d2af345f9782fb4"
+        },
+        {
+            "ArchiveId": "bUJE8m0GJoDnaVpHX7q_94kI1WbGqI5niMLTnrYpW1goF9EJK9yqWIt3QHUWuEGgtyU_Uk-GHxL6J3buupBPtcUH6lGV11Ad1DWUP61DLj0n59Nq2hk9fr4ByxFq6fv2Sjc4YNbqDQ",
+            "ArchiveDescription": "D:/example1.zip",
+            "CreationDate": "2013-10-04T03:24:03Z",
+            "Size": 191,
+            "SHA256TreeHash": "7a6888d64510ec92b09bc8f72f6f8e6967cbc98ebb04a6b03d2af345f9782fb4"
+        },
+        {
+            "ArchiveId": "cC4AEPS7wxIHkk32BTtY43iW3iDXGsaFY5c7GL_-CXHMt8k3kyQN5ezev2v0zdy7Sh7vz0wHDnqOK3Yw8G5vrxAImlnWCMEl4e06axH_ldJ5UBUzqhBMBiq1B7h546OBP-bZkSXGAw",
+            "ArchiveDescription": "D:/example1.zip",
+            "CreationDate": "2013-10-04T03:26:24Z",
+            "Size": 191,
+            "SHA256TreeHash": "7a6888d64510ec92b09bc8f72f6f8e6967cbc98ebb04a6b03d2af345f9782fb4"
+        },
+        {
+            "ArchiveId": "7UzEfa2QHJGkpvhEeBdmbV6g9du33rT09InUSp43d2-ToCuySGMibEP6Mn8Jym3DMkIoLlk9WRTxdOGpHXj9bxbrhSVAFyqbYRPIpxTwRt4h_WF6QRpzaVIbJbsNdf-uw-NgxJHFJQ",
+            "ArchiveDescription": "D:/example1.zip",
+            "CreationDate": "2013-10-04T03:27:41Z",
+            "Size": 191,
+            "SHA256TreeHash": "7a6888d64510ec92b09bc8f72f6f8e6967cbc98ebb04a6b03d2af345f9782fb4"
+        },
+        {
+            "ArchiveId": "14gaAdykYNwXq3sRaMWEGcpJTqtE87uU0Y1Lyf9ohUZ6h4yvgKhkEklQbHB6bJEuk_Loa0IkP3gTD3ENvCui2dhYWEFRKs8whp97znyalnErY5paYv9g9FBHXsgT29jDKhQwjcbCuw",
+            "ArchiveDescription": "D:/example1.zip",
+            "CreationDate": "2013-10-04T03:27:46Z",
+            "Size": 191,
+            "SHA256TreeHash": "7a6888d64510ec92b09bc8f72f6f8e6967cbc98ebb04a6b03d2af345f9782fb4"
+        },
+        {
+            "ArchiveId": "278jcw57zthS7dVCQaHgMZR-_NFHIf9VUFBQCGha81YxeXyPENZ65X2iDsRxWklbmlVWJZqg_BHzURSqfFSdX3K1pSB5QbN6g7g68eCeEwt1VwYA4EbU2saL2SDTAQJ4JG39RdcIng",
+            "ArchiveDescription": "D:/example1.zip",
+            "CreationDate": "2013-10-04T09:47:18Z",
+            "Size": 191,
+            "SHA256TreeHash": "7a6888d64510ec92b09bc8f72f6f8e6967cbc98ebb04a6b03d2af345f9782fb4"
+        },
+        {
+            "ArchiveId": "_Dju1bYwnEwSUOXhApeUs-4dkzgBhRrbsqvOXuZWHxPKZNKn1ZJ9Eb--ZxwOPPJcVzL0J95WrPnNrOTcqOI0FT4AFy4jEU3yqu07Po9dH_uCNvGAOLBQboWF4NxMVxzoD_L5P_P-Vw",
+            "ArchiveDescription": "D:/example1.zip",
+            "CreationDate": "2013-10-04T18:16:51Z",
+            "Size": 191,
+            "SHA256TreeHash": "7a6888d64510ec92b09bc8f72f6f8e6967cbc98ebb04a6b03d2af345f9782fb4"
+        },
+        {
+            "ArchiveId": "GfAm0vy11wF-4XT2sZw4L2xXkn3o1YwiIi5Jm8F0gzxz9UDKg78g1ViIOUoeBOHgDoLP3k-98hYRYA-qSeu3H_DtDri4kxacsRXiwjBoK9eDwKT1-Z3GlWRd9_6W6dO1NYIgPLkOCQ",
+            "ArchiveDescription": "<m><v>2</v><p>dXNlY2FzZS5qcGc=</p><lm>20131004T065737Z</lm></m>",
+            "CreationDate": "2013-10-05T08:18:44Z",
+            "Size": 150873,
+            "SHA256TreeHash": "a882940c2aea3ae39ba83c29dd83364b6d7752fec56c36dc5731732147428b89"
+        }
+    ]
+}

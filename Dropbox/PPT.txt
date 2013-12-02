@@ -1,0 +1,7 @@
+Google app engine, Microsoft Azure and Amazon AWS are considered as dominating service providers in market of cloud computing.
+Google app engine is a PAAS which provides one of the largest application hosting environment.
+Amazon and azure are IAAS,PAAS, SAAS.
+
+But there is overhead on programmer to code for different types of platforms on which the mobile app will work. This incurs significant cost and time consumption in delivery of app.
+
+So Parse and all come into the play which uses MBAAS as service which takes the burden from programmer of redeveloping backend of service, which in turn reduces time and Money.

@@ -1,0 +1,59 @@
+
+http is sync communication
+
+Addressable resources
+The key abstraction of information and data in REST is a resource, and each resource
+must be addressable via a URI (Uniform Resource Identifier).
+
+A uniform, constrained interface
+Use a small set of well-defined methods to manipulate your resources.
+
+Representation-oriented
+You interact with services using representations of that service. A resource referenced
+by one URI can have different formats. Different platforms need different
+formats. For example, browsers need HTML, JavaScript needs JSON (JavaScript
+Object Notation), and a Java application may need XML.
+
+Communicate statelessly
+Stateless applications are easier to scale.
+
+Hypermedia As The Engine Of Application State (HATEOAS)
+Let your data formats drive state transitions in your applications.
+
+GET
+GET is a read-only operation. It is used to query the server for specific information.
+It is both an idempotent and safe operation. Idempotent means that no matter how
+many times you apply the operation, the result is always the same. The act of
+reading an HTML document shouldn’t change the document. Safe means that
+invoking a GET does not change the state of the server at all. This means that, other
+than request load, the operation will not affect the server.
+
+PUT
+PUT requests that the server store the message body sent with the request under
+the location provided in the HTTP message. It is usually modeled as an insert or
+update. It is also idempotent. When using PUT, the client knows the identity of
+the resource it is creating or updating. It is idempotent because sending the same
+PUT message more than once has no effect on the underlying service. An analogy
+is an MS Word document that you are editing. No matter how many times you
+click the Save button, the file that stores your document will logically be the same
+document.
+
+DELETE
+DELETE is used to remove resources. It is idempotent as well.
+
+POST
+POST is the only nonidempotent and unsafe operation of HTTP. Each POST
+method is allowed to modify the service in a unique way. You may or may not send
+information with the request. You may or may not receive information from the
+response.
+
+HEAD
+HEAD is exactly like GET except that instead of returning a response body, it
+returns only a response code and any headers associated with the request.
+
+OPTIONS
+OPTIONS is used to request information about the communication options of the
+resource you are interested in. It allows the client to determine the capabilities of
+a server and a resource without triggering any resource action or retrieval.
+
+In REST, stateless means that there is no client session data stored on the server.

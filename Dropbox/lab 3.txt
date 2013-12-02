@@ -1,0 +1,47 @@
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$ git log origin/master | head
+commit 5245d6d5e99e38bcb14388c2787a1e5999a95a5a
+Author: savanibharat <savanibharat@gmail.com>
+Date:   Sun Sep 29 01:09:27 2013 -0700
+
+    readme changes
+
+commit 486c1e0e06ad941bcd9798abc5245aebb69802f2
+Author: savanibharat <savanibharat@gmail.com>
+Date:   Sun Sep 29 00:52:14 2013 -0700
+
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$
+----------------------------------------------------------------------------------
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$ ps -elf | grep java
+0 S ubuntu    1090     1  1  80   0 - 520559 futex_ 08:10 pts/0   00:00:04 java -jar target/dropwizard-helloworld-0.0.1-SNAPSHOT.jar server config/dev_config.yml
+0 S ubuntu    1135   838  0  80   0 -  2026 pipe_w 08:14 pts/0    00:00:00 grep --color=auto java
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$
+------------------------------------------------------------------------------------
+ 1090
+--------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$ head /tmp/deployer.log
+Bottle v0.11.6 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:9000/
+Hit Ctrl-C to quit.
+
+stop.sh::Killing PID 955...
+stop.sh::Terminated PID 955.
+build.sh::Pulling the lastest commit from Github...
+From https://github.com/savanibharat/dropwizard-helloworld
+   486c1e0..5245d6d  master     -> origin/master
+Updating 486c1e0..5245d6d
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$
+---------------------------------------------------------------------------------
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$ grep "run-forever.sh" /tmp/deployer.log | tail
+run-forever.sh:: Start running the app...
+run-forever.sh:: Successfully started the app (pid:1090)
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$
+-------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$ grep "redeploy" /tmp/deployer.log | tail
+192.30.252.53 - - [29/Sep/2013 08:10:15] "POST /redeploy/1296 HTTP/1.1" 200 55
+ubuntu@ip-172-31-4-112:~/dropwizard-helloworld$
+--------------------------------------------------------------------------------------------
+The first command lists all the changes from Master branch whereas the second command lists all the changes in working branch
+'git log origin/master' displays the commits that have been made to the master, which are different from the current repository we are working on
+'git log origin/master' shows us the commits that has been made to master which are different from current repository we are working

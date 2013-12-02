@@ -1,0 +1,28 @@
+Enterprise Software Platforms — Quiz 1
+Name: ________________________________________________           Score: _______/25
+This Is a Closed Book / Closed Notes / Closed Neighbor Quiz
+1.	Check each of the following that is true for Client/Server (1 point for each that is correctly checked or unchecked. 5 points max.). 
+? Shared Resources--
+?  Symmetrical Protocols
+?  Encapsulation of services--
+?  Opaque Location
+?  Message-based exchanges--
+
+2.	Indicate if each of the following client/server paradigms is fat client or fat server   (1 point for each paradigm if Fat Client and Fat Server are correctly checked or unchecked. 5 points max.). 
+Fat Client  Fat Server        Paradigm
+     ?               ?               File Server fc
+     ?               ?               Database Serverfs
+     ?               ?               TP Monitorfs
+     ?               ?               Application Serverfs
+     ?               ?               Cloud Computingfs
+
+3.	Name three items that are on the client building block (3 points). 
+___________________, ___________________, ___________________
+4.	Name three items that are on the middleware building block (3 points). 
+___________________, ___________________, ___________________
+5.	Name four items that are on the server building block (4 points). 
+___________________, ___________________, ___________________, __________________
+6.	Name three items that are characteristics of platforms (3 points). scale, avalability, manage
+___________________, ___________________, ___________________
+7.	Name two items that are characteristics of pipes (2 points). mom orb queue publich subscribe
+___________________, ___________________ 
